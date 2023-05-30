@@ -47,7 +47,7 @@ test = [
 
 # Plugin registration
 [project.entry-points."cppython.scm"]
-cmake = "cppython_git.plugins.git:GitSCM"
+git = "cppython_git.plugins.git:GitSCM"
 
 [tool.pdm.scripts]
 analyze = {shell = "pylint --verbose cppython_git tests"}

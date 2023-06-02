@@ -4,7 +4,7 @@
 import pytest
 from pytest_cppython.tests import SCMUnitTests
 
-from cppython.plugins.git import GitSCM
+from cppython_git.plugin import GitSCM
 
 
 class TestGitInterface(SCMUnitTests[GitSCM]):
